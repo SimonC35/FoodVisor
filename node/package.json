@@ -1,0 +1,26 @@
+{
+  "name": "restaurants-api",
+  "version": "1.0.0",
+  "description": "API REST pour recenser les restaurants en France",
+  "main": "restaurants-api.js",
+  "type": "module",
+  "scripts": {
+    "start": "node restaurants-api.js",
+    "dev": "nodemon restaurants-api.js"
+  },
+  "keywords": [
+    "restaurants",
+    "api",
+    "express",
+    "rest"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
