@@ -1,6 +1,5 @@
 package com.foodvisor.data.model
 
-import androidx.databinding.adapters.Converters
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import androidx.room.TypeConverters
