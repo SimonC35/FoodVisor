@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.foodvisor.app-mergeDebugResources-57:/layout/activity_restaurant_detail.xml",
+        "source": "com.foodvisor.app-main-60:/layout/activity_restaurant_detail.xml"
+    },
+    {
+        "merged": "com.foodvisor.app-mergeDebugResources-57:/layout/activity_main.xml",
+        "source": "com.foodvisor.app-main-60:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.foodvisor.app-mergeDebugResources-57:/layout/fragment_favorites.xml",
+        "source": "com.foodvisor.app-main-60:/layout/fragment_favorites.xml"
+    },
+    {
+        "merged": "com.foodvisor.app-mergeDebugResources-57:/layout/fragment_profile.xml",
+        "source": "com.foodvisor.app-main-60:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.foodvisor.app-mergeDebugResources-57:/layout/fragment_search.xml",
+        "source": "com.foodvisor.app-main-60:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "com.foodvisor.app-mergeDebugResources-57:/layout/activity_login.xml",
+        "source": "com.foodvisor.app-main-60:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.foodvisor.app-mergeDebugResources-57:/layout/item_restaurant.xml",
+        "source": "com.foodvisor.app-main-60:/layout/item_restaurant.xml"
+    },
+    {
+        "merged": "com.foodvisor.app-mergeDebugResources-57:/layout/fragment_home.xml",
+        "source": "com.foodvisor.app-main-60:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.foodvisor.app-mergeDebugResources-57:/layout/activity_register.xml",
+        "source": "com.foodvisor.app-main-60:/layout/activity_register.xml"
+    }
+]

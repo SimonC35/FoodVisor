@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="about">À propos</string>
+    <string name="address">Adresse</string>
+    <string name="already_have_account_login">Déjà un compte ? Se connecter</string>
+    <string name="app_logo">Logo de l\'application</string>
+    <string name="app_name">Foodvisor</string>
+    <string name="app_subtitle">Découvrez les meilleurs restaurants</string>
+    <string name="call">Appeler</string>
+    <string name="change_password">Changer le mot de passe</string>
+    <string name="confirm_password">Confirmer le mot de passe</string>
+    <string name="continue_as_guest">Continuer en tant qu\'invité</string>
+    <string name="cuisine">Cuisine</string>
+    <string name="description">Description</string>
+    <string name="edit_profile">Modifier le profil</string>
+    <string name="email">Email</string>
+    <string name="email_placeholder">email@example.com</string>
+    <string name="favorite">Favori</string>
+    <string name="favorites">Favoris</string>
+    <string name="full_name">Nom complet</string>
+    <string name="home">Accueil</string>
+    <string name="hours">Horaires</string>
+    <string name="login">Se connecter</string>
+    <string name="logout">Se déconnecter</string>
+    <string name="map">Carte</string>
+    <string name="max_price">Prix maximum</string>
+    <string name="michelin_stars">Étoiles Michelin</string>
+    <string name="my_favorites">Mes Favoris</string>
+    <string name="no_account_register">Pas de compte ? S\'inscrire</string>
+    <string name="no_favorites">Aucun favori\nAjoutez vos restaurants préférés ⭐</string>
+    <string name="no_restaurants">Aucun restaurant disponible</string>
+    <string name="no_results">Aucun résultat</string>
+    <string name="notifications">Notifications</string>
+    <string name="password">Mot de passe</string>
+    <string name="phone">Téléphone</string>
+    <string name="profile">Profil</string>
+    <string name="profile_picture">Photo de profil</string>
+    <string name="register">S\'inscrire</string>
+    <string name="restaurant_image">Image du restaurant</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="search">Recherche</string>
+    <string name="search_hint">Rechercher...</string>
+    <string name="share">Partager</string>
+    <string name="username">Nom d\'utilisateur</string>
+    <string name="website">Site web</string>
+    <style name="Base.Theme.Foodvisor" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+    </style>
+    <style name="Theme.Foodvisor" parent="Base.Theme.Foodvisor"/>
+</resources>
