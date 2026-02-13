@@ -529,7 +529,51 @@ app.get("/restaurants", (req, res) => {
   res.json(Array.from(byId.values()));
 });
 
-// GET /restaurants/:id
+// ⚠️ IMPORTANT : /restaurants/search DOIT ÊTRE AVANT /restaurants/:id
+// GET /restaurants/search
+app.get("/restaurants/search", (req, res) => {
+  const { query, cuisine, etoiles, prixMax, ville } = req.query;
+  let results = Array.from(byId.values());
+
+  // Recherche par nom ou description
+  if (query) {
+    const searchLower = query.toLowerCase();
+    results = results.filter((r) => 
+      r.nom.toLowerCase().includes(searchLower) ||
+      (r.description && r.description.toLowerCase().includes(searchLower))
+    );
+  }
+
+  if (cuisine) {
+    results = results.filter((r) => 
+      r.cuisine.toLowerCase().includes(cuisine.toLowerCase())
+    );
+  }
+
+  if (etoiles !== undefined) {
+    results = results.filter((r) => r.etoilesMichelin >= Number(etoiles));
+  }
+
+  if (prixMax !== undefined) {
+    results = results.filter((r) => r.prixMoyen <= Number(prixMax));
+  }
+
+  if (ville) {
+    results = results.filter((r) => 
+      r.adresse.toLowerCase().includes(ville.toLowerCase())
+    );
+  }
+
+  res.json(results);
+});
+
+// GET /restaurants/favorites
+app.get("/restaurants/favorites", (req, res) => {
+  const favorites = Array.from(byId.values()).filter((r) => r.isFavorite);
+  res.json(favorites);
+});
+
+// GET /restaurants/:id - DOIT ÊTRE APRÈS les routes spécifiques
 app.get("/restaurants/:id", (req, res) => {
   const { id } = req.params;
   const restaurant = byId.get(id);
@@ -615,40 +659,6 @@ app.post("/restaurants/:id/toggle-favorite", (req, res) => {
   return res.json(restaurant);
 });
 
-// GET /restaurants/search
-app.get("/restaurants/search", (req, res) => {
-  const { cuisine, etoiles, prixMax, ville } = req.query;
-  let results = Array.from(byId.values());
-
-  if (cuisine) {
-    results = results.filter((r) => 
-      r.cuisine.toLowerCase().includes(cuisine.toLowerCase())
-    );
-  }
-
-  if (etoiles !== undefined) {
-    results = results.filter((r) => r.etoilesMichelin >= Number(etoiles));
-  }
-
-  if (prixMax !== undefined) {
-    results = results.filter((r) => r.prixMoyen <= Number(prixMax));
-  }
-
-  if (ville) {
-    results = results.filter((r) => 
-      r.adresse.toLowerCase().includes(ville.toLowerCase())
-    );
-  }
-
-  res.json(results);
-});
-
-// GET /restaurants/favorites
-app.get("/restaurants/favorites", (req, res) => {
-  const favorites = Array.from(byId.values()).filter((r) => r.isFavorite);
-  res.json(favorites);
-});
-
 // GET /health
 app.get("/health", (req, res) => {
   res.json({ 
@@ -663,11 +673,11 @@ app.listen(PORT, () => {
   console.log(`✅ Restaurants API en écoute sur http://localhost:${PORT}`);
   console.log(`   Nombre de restaurants: ${byId.size}`);
   console.log(`   GET    http://localhost:${PORT}/restaurants`);
+  console.log(`   GET    http://localhost:${PORT}/restaurants/search`);
+  console.log(`   GET    http://localhost:${PORT}/restaurants/favorites`);
   console.log(`   GET    http://localhost:${PORT}/restaurants/:id`);
   console.log(`   POST   http://localhost:${PORT}/restaurants`);
   console.log(`   PUT    http://localhost:${PORT}/restaurants/:id`);
   console.log(`   DELETE http://localhost:${PORT}/restaurants/:id`);
   console.log(`   POST   http://localhost:${PORT}/restaurants/:id/toggle-favorite`);
-  console.log(`   GET    http://localhost:${PORT}/restaurants/search`);
-  console.log(`   GET    http://localhost:${PORT}/restaurants/favorites`);
 });
