@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.7.3" type="partial_results">
+    <map id="UnsafeImplicitIntentLaunch">
+            <map id="actionsSent">
+                    <map id="android.intent.action.DIAL (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/foodvisor/ui/detail/RestaurantDetailActivity.kt"
+                            line="91"
+                            column="34"
+                            startOffset="3146"
+                            endLine="91"
+                            endColumn="60"
+                            endOffset="3172"/>
+                    </map>
+                    <map id="android.intent.action.VIEW (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/foodvisor/ui/detail/RestaurantDetailActivity.kt"
+                            line="98"
+                            column="34"
+                            startOffset="3417"
+                            endLine="98"
+                            endColumn="60"
+                            endOffset="3443"/>
+                        <location id="1"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/foodvisor/ui/detail/RestaurantDetailActivity.kt"
+                            line="106"
+                            column="34"
+                            startOffset="3831"
+                            endLine="106"
+                            endColumn="65"
+                            endOffset="3862"/>
+                    </map>
+            </map>
+    </map>
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.foodvisor.ui.auth.LoginActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.color.purple_200"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="5"
+            column="12"
+            startOffset="146"
+            endLine="5"
+            endColumn="29"
+            endOffset="163"/>
+        <location id="R.menu.bottom_menu"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/menu/bottom_menu.xml"
+            line="2"
+            column="1"
+            startOffset="1"
+            endLine="7"
+            endColumn="8"
+            endOffset="505"/>
+        <entry
+            name="model"
+            string="attr[colorPrimary(R),actionBarSize(R),selectableItemBackgroundBorderless(R)],color[white(U),black(U),design_default_color_primary(R),purple_200(D),purple_500(U),purple_700(U),teal_200(U),teal_700(U)],drawable[ic_restaurant_placeholder(U)],id[iv_logo(U),tv_title(U),tv_subtitle(U),til_email(U),et_email(D),til_password(U),et_password(D),btn_login(U),tv_register(U),tv_skip_login(D),nav_host_fragment(U),bottom_navigation(U),til_name(U),et_name(D),til_confirm_password(U),et_confirm_password(D),btn_register(U),tv_login(D),app_bar(U),collapsing_toolbar(D),iv_restaurant(U),toolbar(U),content_layout(D),tv_cuisine(U),tv_price(D),tv_rating(D),tv_stars(U),tv_description(D),tv_address(D),tv_phone(D),tv_horaires(D),btn_call(D),btn_website(D),btn_map(D),btn_share(D),fab_favorite(D),progress_bar(D),tv_header(U),rv_favorites(D),tv_empty(D),swipe_refresh(D),rv_restaurants(D),iv_profile(U),tv_user_name(U),tv_user_email(U),card_settings(U),btn_edit_profile(D),btn_change_password(D),btn_notifications(D),btn_about(D),btn_logout(D),card_search(U),et_search(D),btn_search(D),spinner_cuisine(D),spinner_stars(D),spinner_price(D),rv_search_results(D),tv_restaurant_name(U),btn_favorite(D),home(D),search(D),fav(D),profile(D),navigation_home(U),navigation_search(U),navigation_favorites(U),navigation_profile(U),nav_graph(D)],layout[activity_login(U),activity_main(U),activity_register(U),activity_restaurant_detail(U),fragment_favorites(U),fragment_home(U),fragment_profile(U),fragment_search(U),item_restaurant(U)],menu[bottom_nav_menu(U),bottom_menu(D)],navigation[nav_graph(U)],string[app_name(U),app_logo(U),app_subtitle(U),email(U),password(U),login(U),no_account_register(U),continue_as_guest(U),register(U),full_name(U),confirm_password(U),already_have_account_login(U),restaurant_image(U),appbar_scrolling_view_behavior(R),description(U),address(U),phone(U),hours(U),call(U),website(U),map(U),share(U),favorite(U),my_favorites(U),no_favorites(U),restaurants(U),no_restaurants(U),profile_picture(U),username(U),email_placeholder(U),edit_profile(U),change_password(U),notifications(U),about(U),logout(U),search_hint(U),cuisine(U),michelin_stars(U),max_price(U),no_results(U),home(U),search(U),favorites(U),profile(U)],style[Theme_Foodvisor(U),ThemeOverlay_AppCompat_Light(R),Widget_Material3_Button_TextButton(R),Base_Theme_Foodvisor(U),Theme_Material3_DayNight_NoActionBar(R)];51^3^5e^b^5d^4^c^5f^d^60^e^61^f^62^11^63^5^13^64^14,52^17^5c^3^5a,53^3^65^4^66^d^60^18^61^f^67^11^1a^68^5^1c,54^0^69^b^1^8a^6a^5^6b^4^6c^6d^6e^6f^70^71^72^73^1e,55^74^4^31^75,56^76^4^31^77,57^78^b^79^4^36^7a^37^38^7b^8b^7c^7d^7e^7f^39,58^80^81^82^83^3f^84,59^69^b^4^20^46^23^26^5^2^73,5a^85^86^87^88,5c^4c^85^86^87^88,89^8c,8c^8d^7^8^3^9^a^4;;;"/>
+    </map>
+
+</incidents>

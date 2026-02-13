@@ -104,7 +104,7 @@ class ProfileFragment : Fragment() {
     private fun showAboutDialog() {
         AlertDialog.Builder(requireContext())
             .setTitle("À propos")
-            .setMessage("Foodvisor v1.0\n\nDécouvrez les meilleurs restaurants gastronomiques.\n\nDéveloppé avec ❤️")
+            .setMessage("Foodvisor v1.0\n\nDécouvrez les meilleurs restaurants gastronomiques.\n")
             .setPositiveButton("OK", null)
             .show()
     }

@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "com.foodvisor.app-debug-56:/navigation_nav_graph.xml.flat",
+        "source": "com.foodvisor.app-main-58:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.foodvisor.app-debug-56:/drawable_ic_restaurant_placeholder.xml.flat",
+        "source": "com.foodvisor.app-main-58:/drawable/ic_restaurant_placeholder.xml"
+    },
+    {
+        "merged": "com.foodvisor.app-debug-56:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.foodvisor.app-main-58:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.foodvisor.app-debug-56:/layout_activity_register.xml.flat",
+        "source": "com.foodvisor.app-main-58:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.foodvisor.app-debug-56:/layout_activity_login.xml.flat",
+        "source": "com.foodvisor.app-main-58:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.foodvisor.app-debug-56:/layout_fragment_home.xml.flat",
+        "source": "com.foodvisor.app-main-58:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.foodvisor.app-debug-56:/layout_activity_restaurant_detail.xml.flat",
+        "source": "com.foodvisor.app-main-58:/layout/activity_restaurant_detail.xml"
+    },
+    {
+        "merged": "com.foodvisor.app-debug-56:/menu_bottom_menu.xml.flat",
+        "source": "com.foodvisor.app-main-58:/menu/bottom_menu.xml"
+    },
+    {
+        "merged": "com.foodvisor.app-debug-56:/layout_fragment_profile.xml.flat",
+        "source": "com.foodvisor.app-main-58:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.foodvisor.app-debug-56:/layout_fragment_favorites.xml.flat",
+        "source": "com.foodvisor.app-main-58:/layout/fragment_favorites.xml"
+    },
+    {
+        "merged": "com.foodvisor.app-debug-56:/layout_activity_main.xml.flat",
+        "source": "com.foodvisor.app-main-58:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.foodvisor.app-debug-56:/layout_fragment_search.xml.flat",
+        "source": "com.foodvisor.app-main-58:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "com.foodvisor.app-debug-56:/layout_item_restaurant.xml.flat",
+        "source": "com.foodvisor.app-main-58:/layout/item_restaurant.xml"
+    }
+]

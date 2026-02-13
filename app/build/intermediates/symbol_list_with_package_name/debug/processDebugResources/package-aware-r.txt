@@ -3286,7 +3286,6 @@ id currentState
 id custom
 id customPanel
 id cut
-id dataBinding
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -3491,8 +3490,6 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
-id onAttachStateChangeListener
-id onDateChanged
 id onInterceptTouchReturnSwipe
 id open_search_bar_text_view
 id open_search_view_background
@@ -3634,7 +3631,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textWatcher
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon

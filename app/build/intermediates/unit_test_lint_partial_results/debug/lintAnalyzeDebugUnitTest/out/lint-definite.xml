@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.7.3" type="incidents">
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of com.android.application than 8.7.3 is available: 9.0.0">
+        <fix-replace
+            description="Change to 9.0.0"
+            family="Update versions"
+            oldString="8.7.3"
+            replacement="9.0.0"
+            priority="0"/>
+        <location
+            file="$HOME/Documents/Delivery/FoodVisor/gradle/libs.versions.toml"
+            line="2"
+            column="7"
+            startOffset="17"
+            endLine="2"
+            endColumn="14"
+            endOffset="24"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.navigation.safeargs.kotlin than 2.7.6 is available: 2.9.7">
+        <fix-replace
+            description="Change to 2.9.7"
+            family="Update versions"
+            oldString="2.7.6"
+            replacement="2.9.7"
+            priority="0"/>
+        <location
+            file="$HOME/Documents/Delivery/FoodVisor/gradle/libs.versions.toml"
+            line="5"
+            column="14"
+            startOffset="78"
+            endLine="5"
+            endColumn="21"
+            endOffset="85"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.core:core-ktx than 1.12.0 is available: 1.17.0">
+        <fix-replace
+            description="Change to 1.17.0"
+            family="Update versions"
+            oldString="1.12.0"
+            replacement="1.17.0"
+            priority="0"/>
+        <location
+            file="$HOME/Documents/Delivery/FoodVisor/gradle/libs.versions.toml"
+            line="6"
+            column="11"
+            startOffset="96"
+            endLine="6"
+            endColumn="19"
+            endOffset="104"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.1">
+        <fix-replace
+            description="Change to 1.7.1"
+            family="Update versions"
+            oldString="1.6.1"
+            replacement="1.7.1"
+            priority="0"/>
+        <location
+            file="$HOME/Documents/Delivery/FoodVisor/gradle/libs.versions.toml"
+            line="7"
+            column="13"
+            startOffset="117"
+            endLine="7"
+            endColumn="20"
+            endOffset="124"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.material:material than 1.11.0 is available: 1.13.0">
+        <fix-replace
+            description="Change to 1.13.0"
+            family="Update versions"
+            oldString="1.11.0"
+            replacement="1.13.0"
+            priority="0"/>
+        <location
+            file="$HOME/Documents/Delivery/FoodVisor/gradle/libs.versions.toml"
+            line="8"
+            column="12"
+            startOffset="136"
+            endLine="8"
+            endColumn="20"
+            endOffset="144"/>
+    </incident>
+
+</incidents>

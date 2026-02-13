@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.foodvisor.app-mergeDebugResources-54:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/simonc/.gradle/caches/8.13/transforms/c8c28703b1105a9f5745de5ad1807f31/transformed/appcompat-1.6.1/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

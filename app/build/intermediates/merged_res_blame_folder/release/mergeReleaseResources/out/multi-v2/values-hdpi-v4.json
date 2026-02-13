@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.foodvisor.app-mergeReleaseResources-54:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/simonc/.gradle/caches/8.13/transforms/c8c28703b1105a9f5745de5ad1807f31/transformed/appcompat-1.6.1/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}
