@@ -1,16 +1,24 @@
+### Android ###
 *.iml
 .gradle
 /local.properties
+local.properties
+/build
+**/build/
+/captures
+.externalNativeBuild
+.cxx
+
+### IntelliJ / Android Studio ###
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
+/.idea/misc.xml
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+
+### Node.js ###
 /node/node_modules/
+/node/.env
