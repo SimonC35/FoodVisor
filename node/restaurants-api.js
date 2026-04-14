@@ -529,7 +529,7 @@ app.get("/restaurants", (req, res) => {
   res.json(Array.from(byId.values()));
 });
 
-// ⚠️ IMPORTANT : /restaurants/search DOIT ÊTRE AVANT /restaurants/:id
+// IMPORTANT : /restaurants/search DOIT ÊTRE AVANT /restaurants/:id
 // GET /restaurants/search
 app.get("/restaurants/search", (req, res) => {
   const { query, cuisine, etoiles, prixMax, ville } = req.query;
